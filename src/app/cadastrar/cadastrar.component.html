@@ -40,6 +40,7 @@
             <div class="form-group">
               <label for="senha">Senha:</label>
               <input
+               (input)="confirmSenha($event)"
                 type="password"
                 class="form-control"
                 name="senha"
@@ -49,7 +50,6 @@
             <div class="form-group">
               <label for="confirmSenha">Confirmar senha:</label>
               <input
-                (input)="confirmSenha($event)"
                 type="password"
                 class="form-control"
                 name="confirmSenha"
