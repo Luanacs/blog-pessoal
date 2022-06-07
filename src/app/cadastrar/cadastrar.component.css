@@ -1,0 +1,9 @@
+#img-bg{
+    background-image: url('https://images-ext-2.discordapp.net/external/FlRugksLpg0w2f8Bs9sPLMeWM7JryyqsPS_5WZlELzU/https/i.imgur.com/w3d95jN.jpg?width=1006&height=670');
+
+    min-height: 695px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
