@@ -9,7 +9,8 @@ import { Tema } from '../model/Tema';
 })
 export class TemaService {
 
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient) { }
 
   token = {
     headers: new HttpHeaders().set('Authorization', environment.token)
