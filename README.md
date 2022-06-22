@@ -1,28 +1,40 @@
-# BlogPessoal
-Projeto de BlogPessoal pela Generation Brasil com integração de API - blogpessoal
+<h1 align="center">Blog Pessoal</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+<!-- <p align="center">
+  <img src="https://raw.githubusercontent.com/carolineferraz/JanelaViva/4489e6c38b157c0ab28e0d200ac7ede26533b267/src/assets/img/logo-amarela.svg" />
+</p> -->
 
-## Development server
+<h2 align="center">
+	"Vem dar uma olhadinha no meu portfólio!"
+</h2>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 😊 O que você vai encontrar:
 
-## Code scaffolding
+<p align="left">Ao entrar no meu Blog Pessoal você poderá conhecer um pouco mais da minha história, hobbies e projetos construídos até o momento!</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="left"> Esse projeto foi iniciado no Bootcamp da Generation Brasil, mas vai manter-se sempre atualizado como meu portfólio.</p>
 
-## Build
+### 📝 Layout
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Layout foi implementado de acordo com craições feitas pelo [Figma];
 
-## Running unit tests
+### 🛠 Tecnologias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Running end-to-end tests
+#### Frontend
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Angular
+- Bootstrap
+- Typescript
 
-## Further help
+#### Backend
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Java/Spring
+- Banco de dados MySQL
+
+### Quem fez?
+
+Vai dar um 👋🏽 no LinkedIn:
+
+- Luana Siqueira  [![Linkedin Badge](https://img.shields.io/badge/-luanasiqueira-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/luana-chaves-siqueira/)](https://www.linkedin.com/in/luana-chaves-siqueira/)
