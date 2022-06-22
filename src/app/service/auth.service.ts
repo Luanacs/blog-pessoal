@@ -44,5 +44,12 @@ export class AuthService {
     return ok
 
   }
+  putUsuario(usuario: Usuario): Observable<Usuario> {
+    return this.http.put<Usuario>('https://blogpessoalcs.herokuapp.com/usuarios/atualizar', usuario, this.token)
+  }
+
+  getUsuarios(): Observable<Usuario[]> {
+    return this.http.get<Usuario[]>('https://blogpessoalcs.herokuapp.com/usuarios/all', this.token);
+  }
   
 }
