@@ -16,7 +16,7 @@
 
 ### 📝 Layout
 
-- Layout foi implementado de acordo com craições feitas pelo [Figma];
+- Layout foi implementado de acordo com criações feitas pelo [Figma];
 
 ### 🛠 Tecnologias
 
