@@ -1,42 +1,55 @@
-<div class="container-fluid">
+<div class="container-fluid img-bg header font">
+  <div class="row d-flex justify-content-center align-items">
+    <div class="col-md-12">
+      <div>
+        <h1 class="margem-bemvindo">
+          Bem Vinde ao meu Blog Pessoal!
+        </h1>
+        <h6 class="margem-sub"><strong> Aqui você vai poder conhecer um pouquinho da minha história, hobbies e sonhos!</strong></h6>
+        <p class="margem-icons"><i class="fa fa-plane mr-3" aria-hidden="true"></i> <i class="fa fa-globe mr-3" aria-hidden="true"> </i> <i class="fa fa-coffee mr-3" aria-hidden="true"></i> <i class="fa fa-graduation-cap mr-3" aria-hidden="true"></i> <i class="fa fa-laptop mr-3" aria-hidden="true"></i> <i class="fa fa-camera mr-3" aria-hidden="true"></i> <i class="fa fa-calculator mr-3" aria-hidden="true"></i> <i class="fa fa-calendar" aria-hidden="true"></i></p>
+      </div>
 
-    <div class="row d-flex align-items-center">
-
-        <div class="col-md-6">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6">
-
-                    <h1 class="text-center mb-3">Entrar</h1>
-
-                    <div class="form-group">
-                        <label for="usuario">Usuário</label>
-                        <input [(ngModel)]="usuarioLogin.usuario" class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu usuário">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="senha">Senha</label>
-                        <input  [(ngModel)]="usuarioLogin.senha" class="form-control" type="password" name="senha" id="senha" placeholder="Sua senha">
-                    </div>
-
-                    <div class="d-flex justify-content-center">
-                        <button (click)="entrar()" type="submit" class="btn btn-success">Entrar</button>
-                    </div>
-
-                    <hr class="mt-5 mb-5">
-
-                    <p class="text-center">
-                        Não tem uma conta? <a routerLink='/cadastrar'>Cadastre-se</a>
-                    </p>
-
-
-                </div>
-
-            </div>
-
+      <div class="form-area margem-entrar font-entrar">
+        <h1 class="text-center pt-3">Entrar</h1>
+        <div class="form-group">
+          <label for="usuario">Usuário</label>
+          <input
+            [(ngModel)]="usuarioLogin.usuario"
+            class="form-control"
+            type="text"
+            name="usuario"
+            id="usuario"
+            placeholder="Seu usuário"
+          />
         </div>
 
-        <div class="col-md-6" id="img-bg"></div>
+        <div class="form-group ">
+          <label for="senha">Senha</label>
+          <input
+            [(ngModel)]="usuarioLogin.senha"
+            class="form-control"
+            type="password"
+            name="senha" 
+            id="senha"
+            placeholder="Sua senha"
+          />
+        </div>
 
+        <div class="d-flex justify-content-center pt-3">
+          <button
+            (click)="entrar()"
+            type="submit"
+            class="button-entrar font-button"
+          >
+            Entrar
+          </button>
+        </div>
+        <p class="text-center pt-3 text-black-50">
+          Não tem uma conta? <a class="text-info" routerLink="/cadastrar">Cadastre-se</a>
+        </p>
+
+        <!-- <div class="col-md-6" id="img-bg"></div> -->
+      </div>
     </div>
-
+  </div>
 </div>
