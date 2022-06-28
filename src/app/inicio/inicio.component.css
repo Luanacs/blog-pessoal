@@ -1,0 +1,46 @@
+.fs-12{
+    font-size: 12pt;
+    color: var(--color-azul-medio)
+}
+.fs-25{
+    font-size: 25pt;
+    color: var(--color-azul-medio);
+}
+.height-carousel{
+    width: 80%;
+}
+.btn{
+    background-color: var(--color-soft-white);
+    border: 1px solid var(--color-yellow);
+    color: var(--color-yellow);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.margem-btn{
+    margin-left: 450px;
+}
+.menu-post{
+    color: #38a3a5;
+}
+.font-card{
+    color: #22577a;
+}
+.font-cadastre{
+    color: #57cc99;
+}
+.card{
+    border-radius: 20px;
+    border: 1px solid #38a3a5;
+    color: #38a3a5;
+}
+.margem-text{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+
+}
+.border-inicio{
+    border: 1px solid var(--color-yellow);
+    border-radius: 20px;
+    
+}

@@ -4,6 +4,7 @@ import { environment } from 'src/environments/environment.prod';
 import { Postagem } from '../model/Postagem';
 import { Tema } from '../model/Tema';
 import { Usuario } from '../model/Usuario';
+import { AlertasService } from '../service/alertas.service';
 import { AuthService } from '../service/auth.service';
 import { PostagemService } from '../service/postagem.service';
 import { TemaService } from '../service/tema.service';
@@ -24,6 +25,7 @@ export class InicioComponent implements OnInit {
 
   usuario: Usuario=new Usuario()
   idUsuario=environment.id
+  usuarioPost: Usuario=new Usuario()
 
 
 
@@ -32,7 +34,8 @@ export class InicioComponent implements OnInit {
     private router: Router,
     private postagemService: PostagemService,
     private temaService: TemaService,
-    private authService: AuthService
+    private authService: AuthService,
+    private alertasService: AlertasService
   ) { }
 
   ngOnInit(){
@@ -46,7 +49,7 @@ export class InicioComponent implements OnInit {
     this.authService.refreshToken();
     this.getAllTemas()
     this.getAllPostagens()
-    this.findByIdUsuario()
+    // this.findByIdUsuario()
   }
 
   getAllTemas(){
@@ -61,8 +64,8 @@ export class InicioComponent implements OnInit {
   }
   getAllPostagens(){
     this.postagemService.getAllPostagens().subscribe((resp: Postagem[])=>{
-      this.listaPostagens = resp
-
+      this.listaPostagens=resp;
+      console.log(this.listaPostagens)
     })
   }
   findByIdUsuario(){
@@ -72,19 +75,22 @@ export class InicioComponent implements OnInit {
   }
 
   publicar(){
+
+    this.tema.postagem=[]
+
     this.tema.id=this.idTema
     this.postagem.tema=this.tema
 
-    this.usuario.id=this.idUsuario
-    this.postagem.usuario=this.usuario
-
+    this.usuarioPost.id=this.idUsuario
+    this.postagem.usuario=this.usuarioPost
+ 
     this.postagemService.postPostagem(this.postagem).subscribe((resp: Postagem)=>{
       this.postagem=resp
-      alert('Postagem realizada com sucesso')
+      this.alertasService.showAlertSuccess('Postagem realizada com sucesso')
+      
       this.postagem=new Postagem()
       this.getAllPostagens()
-    })
-
+    })    
     
   }
 

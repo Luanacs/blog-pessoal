@@ -1,8 +1,16 @@
 .fs-16
 {
     font-size: 16pt;
+    color: var(--color-orange);
 }
 a
 {
     cursor: pointer;
+}
+.background-menu{
+    background-color: white;
+    
+}
+.color-hr{
+    color: #22577a;
 }
