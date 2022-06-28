@@ -1,4 +1,4 @@
-<div class="container-fluid bg-img header" >
+<div class="container-fluid bg-img header mt-5 background-inicio" >
   <div class="row d-flex align-items-center">
     <div class="col-md-12 d-flex justify-content-center align-items-center">
       <div class="col-md-10 border-inicio">
@@ -96,7 +96,7 @@
           <div class="card-body">
             <h5 class="card-title m-0">{{ item.titulo }}</h5>
             <hr class="color-hr" />
-            <small class="text-muted mb-3">
+            <small class="mb-3 font-tema">
               Tema: {{ item.tema.descricao }}</small
             >
             <p class="card-text mt-3">{{ item.texto }}</p>
@@ -138,13 +138,13 @@
 
             <a
               [routerLink]="['/postagem-edit', item.id]"
-              class="text-info mr-3"
+              class="text-edit-delete btn-edit-delete mr-3 pr-3 pl-3"
               href=""
               >Editar</a
             >
             <a
               [routerLink]="['/postagem-delete', item.id]"
-              class="text-danger"
+              class="text-edit-delete btn-edit-delete"
               href=""
               >Apagar</a
             >

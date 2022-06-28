@@ -1,3 +1,7 @@
+.background-inicio{
+    background-color: var(--color-soft-white);
+}
+
 .fs-12{
     font-size: 12pt;
     color: var(--color-azul-medio)
@@ -20,18 +24,19 @@
     margin-left: 450px;
 }
 .menu-post{
-    color: #38a3a5;
+    color: var(--color-azul-medio);  
 }
 .font-card{
-    color: #22577a;
+    color: var(--color-azul-medio);
 }
 .font-cadastre{
-    color: #57cc99;
+    color: var(--color-yellow);
 }
 .card{
     border-radius: 20px;
-    border: 1px solid #38a3a5;
-    color: #38a3a5;
+    border: 1px solid var(--color-yellow);
+    color: var(--color-azul-medio); 
+    
 }
 .margem-text{
     margin-top: 30px;
@@ -43,4 +48,19 @@
     border: 1px solid var(--color-yellow);
     border-radius: 20px;
     
+}
+.font-tema{
+    color: var(--color-azul-escuro);
+}
+.btn-edit-delete{
+    border: 1px solid var(--color-yellow);
+    background-color: var(--color-yellow);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.text-edit-delete{
+    color: var(--color-soft-white);
 }

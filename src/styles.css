@@ -17,12 +17,12 @@ html
   }
   
   :root {
-    --color-azul-escuro: #023047;
+    --color-azul-escuro: #2a6287;
     --color-azul-medio: #219EBC;
     --color-azul-claro: #8ECAE6;
     --color-orange: #FB8500;
     --color-yellow: #FFB703;
-    --color-soft-white: #fffcf2;
+    --color-soft-white: #fffdf9;
   }
   
   li {
@@ -36,4 +36,7 @@ html
   
   .font {
     font-family: "Inter", sans-serif;
+  }
+  .background-color{
+    background-color: var(--color-soft-white);
   }
