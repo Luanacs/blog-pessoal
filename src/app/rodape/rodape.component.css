@@ -10,9 +10,9 @@ ul.social-network li{
 }
 
 .fa{
-    font-size:35pt;
+    font-size:20pt;
     color: white;
-    padding: 10px;
+    padding: 5px;
 }
 .fa-facebook-square:hover{
     color: #3b5998;
@@ -24,8 +24,8 @@ ul.social-network li{
     color: #0072b1;
 }
 .rodape-color{
-    background-color: #22577a;
+    background-color: var(--color-azul-medio);
 }
 .rodape-color2{
-    background-color: #c7f9cc;
+    background-color: var(--color-azul-claro);
 }
