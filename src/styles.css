@@ -17,11 +17,11 @@ html
   }
   
   :root {
-    --color-azul-escuro: #2a6287;
-    --color-azul-medio: #219EBC;
-    --color-azul-claro: #8ECAE6;
-    --color-orange: #FB8500;
-    --color-yellow: #FFB703;
+    --color-black: #03071E;
+    --color-red: #9D0208;
+    --color-orange: #DC2F02;
+    --color-orange-medio: #E85D04;
+    --color-yellow: #FAA307;
     --color-soft-white: #fffdf9;
   }
   

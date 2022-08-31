@@ -1,75 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=Pacifico&family=Red+Hat+Display:ital,wght@0,400;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=Pacifico&family=Red+Hat+Display:ital,wght@0,400;1,300&display=swap");
 
-#bg-img{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vh;
-    
-    
+#bg-img {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vh;
 }
-.header{
-    background: url(https://i.imgur.com/g9F18yW.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;  
-    background-position: center; 
-    height: 100vh;
-    width: 212vh;
-  
+.header {
+  background: url(https://i.imgur.com/g9F18yW.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 212vh;
 }
-.margem-entrar{
-    margin-top: 50px;
-    margin-left: 200px;
+.margem-entrar {
+  margin-top: 50px;
+  margin-left: 200px;
 }
 .form-area {
-    width: 350px;
-    height: 350px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 20px;
-    border:1px solid var(--color-azul-medio);
-    
-  }
-  .margem-bemvindo{
-    margin-top: 80px;
-    margin-left: 115px;
-  }
-  .font{
-    font-family: 'Red Hat Display', sans-serif;
-    color: white;
-
-  }
-  .font-entrar{
-    font-family: 'Red Hat Display', sans-serif;
-    color: var(--color-azul-medio);
-  }
-  .margem-sub{
-    margin-left: 115px;
-  }
-  .margem-icons{
-    margin-left: 255px;
-  }
-  .form-control{
-    border-radius: 10px;
-    border-color: var(--color-azul-medio);
-    
-
-  }
-  .button-entrar{
-    display: flex;
-    border-radius: 10px;
-    border: 1px solid var(--color-azul-medio) ;
-    padding-left: 130px;
-    padding-right: 130px;
-    background-color: var(--color-azul-medio);
-
-  }
-  .font-button{
-    font-family: 'Red Hat Display', sans-serif;
-    color: white;
-  }
-  .textbox{
-    color: red;
-  }
-
+  width: 350px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--color-yellow);
+}
+.margem-bemvindo {
+  margin-top: 80px;
+  margin-left: 115px;
+}
+.font {
+  font-family: "Red Hat Display", sans-serif;
+  color: white;
+}
+.font-entrar {
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--color-yellow);
+}
+.margem-sub {
+  margin-left: 115px;
+}
+.margem-icons {
+  margin-left: 255px;
+}
+.form-control {
+  border-radius: 10px;
+  border-color: var(--color-yellow);
+}
+.button-entrar {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid var(--color-yellow);
+  padding-left: 130px;
+  padding-right: 130px;
+  background-color: var(--color-yellow);
+}
+.font-button {
+  font-family: "Red Hat Display", sans-serif;
+  color: white;
+}
+.textbox {
+  color: red;
+}
+.text-cadastrar{
+  color: var(--color-black);
+}
