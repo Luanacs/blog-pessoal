@@ -1,26 +1,29 @@
-<div class="container-fluid bg-img header mt-5 background-inicio" >
-  <div class="row d-flex align-items-center">
+<div class="container-fluid pt-5 bg-img header background-inicio" >
+  <div class="row d-flex align-items-center">    
+    <div class="row mb-2 mt-2">
+      <h6 class="font font-bemvindo">Bem vindo ao meu Blog Pessoal, aqui você vai encontrar minha maior paixão: Viajar! Vamos comigo?</h6>
+    </div>
+    <!-- Início do Carousel -->
     <div class="col-md-12 d-flex justify-content-center align-items-center">
-      <div class="col-md-10 border-inicio">
-        <h1 class="fs-25 text-center mt-3 mb-3">
-          Olá, que bom que você está aqui!
-        </h1>
-        <hr>
-        <div class="row">
-          <div class="col-md-6">
-            <p class="fs-12 margem-text">Meu nome é Luana Chaves, tenho 26 anos e sou Desenvolvedora Java Full-Stack Jr. formada pela Generation Brasil, mas minha jornada começou um pouquinho diferente. Atuei durante 4 anos na engenharia civil e depois 2 anos na área de gestão de varejo, onde tive oportunidade de desenvolver minhas soft skills na prática como comunicação, trabalho em equipe, gestão de tempo, proatividade, dentre outras. No entanto nenhuma dessas experiências me trouxe o sentimento de pertencimento, de projetar um futuro dentro daquela realidade, e foi então que decidi realizar transição de carreira, e hoje percebo que foi a melhor escolha que eu fiz, apesar de todas as experiências positivas, nenhuma delas, vislumbrou para mim a orientação ao futuro que pude conhecer através da programação. </p>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="../../assets/mulher-sofa.jpg"
-              class="w-100"
-              alt="Mulher com computador no sofá"
-            />
+      <div id="carouselExampleControls" class="carousel slide img-config " data-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="https://i.imgur.com/VZnsdyx.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
+       <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
       </div>
     </div>
   </div>
+  <!-- Fim do Carousel -->
+
 
   <div class="row mt-5">
     <div class="col-md-12 d-flex justify-content-center align-items-center">
@@ -35,9 +38,10 @@
   </div>
 </div>
 
+
 <!--Início do menu postagens-->
 
-<div class="container mb-5 mt-5" id="postagens">
+<div class="container mb-5 mt-5 background-inicio " id="postagens">
   <ul
     class="nav nav-tabs d-flex justify-content-center"
     id="myTab"
@@ -84,7 +88,7 @@
     </li>
   </ul>
 
-  <div class="tab-content mt-5" id="myTabContent">
+  <!-- <div class="tab-content mt-5 " id="myTabContent">
     <div
       class="tab-pane fade show active"
       id="todasPostagens"
@@ -178,8 +182,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </div> -->
+  <!-- </div> -->
 </div>
 <!--Fim das postagens-->
 
