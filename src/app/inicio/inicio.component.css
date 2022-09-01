@@ -1,20 +1,20 @@
 .background-inicio{
-    background-color: var(--color-soft-white);
+    background-color: var(--color-black);
 }
 
 .fs-12{
     font-size: 12pt;
-    color: var(--color-azul-medio)
+    color: var(--color-yellow)
 }
 .fs-25{
     font-size: 25pt;
-    color: var(--color-azul-medio);
+    color: var(--color-yellow);
 }
 .height-carousel{
     width: 80%;
 }
 .btn{
-    background-color: var(--color-soft-white);
+    background-color: var(--color-black);
     border: 1px solid var(--color-yellow);
     color: var(--color-yellow);
     padding-left: 80px;
@@ -24,18 +24,18 @@
     margin-left: 450px;
 }
 .menu-post{
-    color: var(--color-azul-medio);  
+    color: var(--color-yellow);  
 }
 .font-card{
-    color: var(--color-azul-medio);
+    color: var(--color-orange);
 }
 .font-cadastre{
     color: var(--color-yellow);
 }
 .card{
     border-radius: 20px;
-    border: 1px solid var(--color-yellow);
-    color: var(--color-azul-medio); 
+    border: 1px solid var(--color-orange);
+    color: var(--color-orange); 
     
 }
 .margem-text{
@@ -45,16 +45,16 @@
 
 }
 .border-inicio{
-    border: 1px solid var(--color-yellow);
+    border: 1px solid var(--color-orange);
     border-radius: 20px;
     
 }
 .font-tema{
-    color: var(--color-azul-escuro);
+    color: var(--color-orange);
 }
 .btn-edit-delete{
-    border: 1px solid var(--color-yellow);
-    background-color: var(--color-yellow);
+    border: 1px solid var(--color-orange);
+    background-color: var(--color-orange);
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -62,5 +62,13 @@
     padding-bottom: 5px;
 }
 .text-edit-delete{
-    color: var(--color-soft-white);
+    color: var(--color-black);
+}
+.img-config{
+    width: 70%;
+    height: 70%;
+}
+.font-bemvindo{
+    color: var(--color-yellow);
+    font-size: smaller;
 }
