@@ -1,6 +1,19 @@
 .background-inicio{
     background-color: var(--color-black);
 }
+.font-jumbotron{
+    color: var(--color-soft-white);
+}
+.font-bemvindo{
+    font-size: 30pt;
+    margin-left: 320px;
+    margin-bottom: 20px;
+}
+.font-subtexto{
+    font-size: 10pt;
+    margin-left: 250px;
+    
+}
 
 .fs-12{
     font-size: 12pt;
@@ -32,12 +45,11 @@
 .font-cadastre{
     color: var(--color-yellow);
 }
-.card{
+/* .card{
     border-radius: 20px;
     border: 1px solid var(--color-orange);
     color: var(--color-orange); 
-    
-}
+} */
 .margem-text{
     margin-top: 30px;
     margin-left: 50px;
@@ -65,10 +77,5 @@
     color: var(--color-black);
 }
 .img-config{
-    width: 70%;
-    height: 70%;
-}
-.font-bemvindo{
-    color: var(--color-yellow);
-    font-size: smaller;
+    height: 450px;
 }
