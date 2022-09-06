@@ -1,0 +1,17 @@
+.font-temas{
+    color: var(--color-soft-white);
+}
+.btn-cadastrar{
+    border: 2px solid var(--color-yellow);
+    border-radius: 5px;
+    background-color: var(--color-black);
+    color: var(--color-yellow);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.form-control{
+    border: 2px solid var(--color-yellow);
+    border-radius: 5px;
+}
