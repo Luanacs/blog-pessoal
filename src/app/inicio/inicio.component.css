@@ -1,6 +1,13 @@
 .background-inicio{
     background-color: var(--color-black);
 }
+.color-hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid var(--color-yellow);
+}
+/* Textto Inicial */
 .font-bemvindo{
     color: var(--color-soft-white);
     font-size: 30pt;
@@ -14,6 +21,7 @@
     margin-bottom: 50px;
 
 }
+/* Botões de nova postagens e ver postagem*/
 .btn{
     background-color: var(--color-black);
     border: 1px solid var(--color-yellow);
@@ -21,12 +29,27 @@
     padding-left: 80px;
     padding-right: 80px;
 }
-.margem-btn{
-    margin-left: 450px;
-}
+/* Menu de postagens/ minhas postagens/ postagem por tema */
 .menu-post{
     color: var(--color-yellow);  
 }
+.font-tema{
+    color: var(--color-yellow);
+}
+.btn-edit-delete{
+    border: 1px solid var(--color-yellow);
+    background-color: var(--color-yellow);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.text-edit-delete{
+    color: var(--color-soft-white);
+}
+
+/* Modal de criar postagem */
 .font-modal{
     color: var(--color-black);
 }
@@ -44,40 +67,4 @@
     padding-left: 60px;
     padding-right: 60px;
     margin-right: 10px;
-}
-.margem-text{
-    margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 20px;
-}
-.border-inicio{
-    border: 1px solid var(--color-orange);
-    border-radius: 20px;
-}
-.font-tema{
-    color: var(--color-yellow);
-}
-.btn-edit-delete{
-    border: 1px solid var(--color-yellow);
-    background-color: var(--color-yellow);
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.text-edit-delete{
-    color: var(--color-soft-white);
-}
-.img-config{
-    height: 450px;
-}
-.card-border{
-    border: 1px solid var(--color-yellow);   
-}
-.color-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid var(--color-yellow);
 }

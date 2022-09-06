@@ -41,6 +41,7 @@
   color: var(--color-black);
   box-shadow: none !important;
   font-size: 10pt;
+  opacity: 0.9;
 }
 
 
