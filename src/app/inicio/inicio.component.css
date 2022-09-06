@@ -1,29 +1,18 @@
 .background-inicio{
     background-color: var(--color-black);
 }
-.font-jumbotron{
-    color: var(--color-soft-white);
-}
 .font-bemvindo{
+    color: var(--color-soft-white);
     font-size: 30pt;
-    margin-left: 320px;
     margin-bottom: 20px;
+    margin-top: 50px;
+
 }
 .font-subtexto{
+    color: var(--color-soft-white);
     font-size: 10pt;
-    margin-left: 250px;   
-}
+    margin-bottom: 50px;
 
-.fs-12{
-    font-size: 12pt;
-    color: var(--color-yellow)
-}
-.fs-25{
-    font-size: 25pt;
-    color: var(--color-yellow);
-}
-.height-carousel{
-    width: 80%;
 }
 .btn{
     background-color: var(--color-black);

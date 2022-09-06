@@ -42,3 +42,8 @@ html
   .background-color{
     background-color: var(--color-black);
   }
+  /* .form-control{
+    background-color: unset;
+    color: unset;
+    background: unset;
+  } */
