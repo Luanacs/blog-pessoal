@@ -1,20 +1,23 @@
 <div class="container-fluid pt-5 bg-img background-inicio font">
-  
+  <div
+    class="row container-fluid d-flex align-items-center justify-content-center"
+  >
+    <h4 class="font font-bemvindo text-center">
+      Bem Vinde ao meu Blog de Viagem!
+    </h4>
+    <p class="font font-subtexto text-center">
+      Aqui você vai encontrar um pouquinho da minha paixão: Viajar.<i
+        class="fa fa-plane"
+        aria-hidden="true"
+      ></i
+      ><br />
+      Mais especificamente, fotos das minhas experiências e viagens dentro desse
+      Brasil que amo! Espero que gostem!
+      <i class="fa fa-smile-o" aria-hidden="true"></i>
+    </p>
+  </div>
 
-
-      
-      <div class="row container-fluid d-flex align-items-center justify-content-center">
-        <h4 class="font font-bemvindo text-center">Bem Vinde ao meu Blog de Viagem!</h4>
-        <p class="font font-subtexto text-center ">Aqui você vai encontrar um pouquinho da
-          minha paixão: Viajar.<i class="fa fa-plane" aria-hidden="true"></i><br>
-          Mais especificamente, fotos das minhas experiências e viagens dentro
-          desse Brasil que amo! Espero que gostem!
-          <i class="fa fa-smile-o" aria-hidden="true"></i></p>
-      </div>
-      
-
-
-  <!-- Buttons de postagem -->
+  <!-- Buttons de nova postagem e ver postagem-->
   <div class="row mt-5">
     <div class="col-md-12 d-flex justify-content-center align-items-center">
       <div class="row">
@@ -100,8 +103,25 @@
       <h5 class="card-title">Salvador-BA</h5>
     </div>
   </div>
+  <div class="card">
+    <img src="https://i.imgur.com/NsYDVrO.jpg" class="card-img" alt="..." />
+    <div class="card-body text-center">
+      <h5 class="card-title">Salvador-BA</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.imgur.com/dwqMRgj.jpg" class="card-img" alt="..." />
+    <div class="card-body text-center">
+      <h5 class="card-title">Bonito-MS</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://i.imgur.com/RRMifzO.jpg" class="card-img" alt="..." />
+    <div class="card-body text-center">
+      <h5 class="card-title">Bonito-MS</h5>
+    </div>
+  </div>
 </div>
-
 
 <!--Início do menu postagens-->
 <div class="container mb-5 mt-5 background-inicio font" id="postagens">
@@ -227,11 +247,11 @@
       aria-labelledby="postagemTema-tab"
     >
       <div class="card-columns" *ngFor="let tema of listaTemas">
-        <div class="card  text-center" *ngFor="let item of tema.postagem">
-          <div class="card-body ">
+        <div class="card text-center" *ngFor="let item of tema.postagem">
+          <div class="card-body">
             <h5 class="card-title m-0">{{ item.titulo }}</h5>
             <hr class="color-hr" />
-            <small class="font-tema mb-3 "> Tema: {{ tema.descricao }}</small>
+            <small class="font-tema mb-3"> Tema: {{ tema.descricao }}</small>
             <p class="card-text">{{ item.texto }}</p>
             <p class="card-text">
               <small class="text-muted"
@@ -253,14 +273,14 @@
 
 <!-- Modal -->
 <div
-  class="modal fade font font-modal "
+  class="modal fade font font-modal"
   id="novaPostagem"
   tabindex="-1"
   role="dialog"
   aria-labelledby="TituloModalCentralizado"
   aria-hidden="true"
 >
-  <div class="modal-dialog modal-dialog-centered " role="document">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content background-modal">
       <div class="modal-header">
         <h5 class="modal-title" id="TituloModalCentralizado">Nova Postagem</h5>
@@ -317,8 +337,10 @@
           </select>
         </div>
       </div>
-      <div class="modal-footer d-flex align-items-center justify-content-center">
-        <div class="row ">
+      <div
+        class="modal-footer d-flex align-items-center justify-content-center"
+      >
+        <div class="row">
           <button type="button" class="btn-modal" data-dismiss="modal">
             Cancelar
           </button>
