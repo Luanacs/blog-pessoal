@@ -38,3 +38,9 @@ ul.social-network li{
 .rodape-color2{
     background-color: var(--color-black);
 }
+.color-hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid var(--color-yellow);
+}
