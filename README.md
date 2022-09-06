@@ -5,14 +5,14 @@
 </p> -->
 
 <h2 align="center">
-	"Vem dar uma olhadinha no meu portfólio!"
+	"Vem dar uma olhadinha no meu CS-TripBlog!"
 </h2>
 
 ### 😊 O que você vai encontrar:
 
-<p align="left">Ao entrar no meu Blog Pessoal você poderá conhecer um pouco mais da minha história, hobbies e projetos construídos até o momento!</p>
+<p align="left">Ao entrar no meu Blog de viagens você poderá conhecer um pouquinhos dos lugares que já passei, fotos e experiências, além de comentários sobre cada lugarzinho que passei!</p>
 
-<p align="left"> Esse projeto foi iniciado no Bootcamp da Generation Brasil, mas vai manter-se sempre atualizado como meu portfólio.</p>
+<p align="left"> Esse projeto foi iniciado no Bootcamp da Generation Brasil, mas vai manter-se sempre atualizado como meu diário de viagens.</p>
 
 ### 📝 Layout
 
