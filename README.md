@@ -10,7 +10,7 @@
 
 ### 😊 O que você vai encontrar:
 
-<p align="left">Ao entrar no meu Blog de viagens você poderá conhecer um pouquinhos dos lugares que já passei, fotos e experiências, além de comentários sobre cada lugarzinho que passei!</p>
+<p align="left">Ao entrar no meu Blog de viagens você poderá conhecer um pouquinho dos lugares que já passei, fotos e experiências, além de comentários sobre cada lugarzinho!</p>
 
 <p align="left"> Esse projeto foi iniciado no Bootcamp da Generation Brasil, mas vai manter-se sempre atualizado como meu diário de viagens.</p>
 
